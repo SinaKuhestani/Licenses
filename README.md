@@ -1,6 +1,5 @@
 # How to Choose a License for Your Own Work
 
----
 
 People often ask us what license we recommend they use for their project. We've written about this publicly before, but the information has been scattered around between different essays, FAQ entries, and license commentaries. This article collects all that information into a single source, to make it easier for people to follow and refer back to.
 
