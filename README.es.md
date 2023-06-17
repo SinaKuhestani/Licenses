@@ -1,7 +1,7 @@
 # Guía completa para desarrolladores sobre licencias de código abierto
 
 [![es](https://img.shields.io/badge/lang-english-red.svg)](https://github.com/sinabek/licences/blob/main/README.md)
-[![pt-br](https://img.shields.io/badge/lang-português-green.svg)](https://github.com/sinabek/licences/blob/main/README.pt. Maryland)
+[![pt-br](https://img.shields.io/badge/lang-português-green.svg)](https://github.com/sinabek/licences/blob/main/README.pt.md)
 [![es](https://img.shields.io/badge/lang-español-yellow.svg)](https://github.com/sinabek/licences/blob/main/README.es.md)
 [![es](https://img.shields.io/badge/lang-français-blue.svg)](https://github.com/sinabek/licences/blob/main/README.fr.md)
 [![es](https://img.shields.io/badge/lang-deutsch-orange.svg)](https://github.com/sinabek/licences/blob/main/README.de.md)
