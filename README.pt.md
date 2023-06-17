@@ -1,110 +1,1101 @@
-# How to Choose a License for Your Own Work
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/sinabek/licences/blob/main/README.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/sinabek/licences/blob/main/README.pt.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/sinabek/licences/blob/main/README.es.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/sinabek/licences/blob/main/README.fr.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/sinabek/licences/blob/main/README.de.md)
+# Guia completo dos desenvolvedores sobre licenças de código aberto
 
+[![pt](https://img.shields.io/badge/lang-english-red.svg)](https://github.com/sinabek/licences/blob/main/README.md)
+[![pt-br](https://img.shields.io/badge/lang-português-green.svg)](https://github.com/sinabek/licences/blob/main/README.pt. md)
+[![es](https://img.shields.io/badge/lang-español-yellow.svg)](https://github.com/sinabek/licences/blob/main/README.es.md)
+[![es](https://img.shields.io/badge/lang-français-blue.svg)](https://github.com/sinabek/licences/blob/main/README.fr.md)
+[![es](https://img.shields.io/badge/lang-deutsch-orange.svg)](https://github.com/sinabek/licences/blob/main/README.de.md)
 
-As pessoas costumam nos perguntar qual licença recomendamos que usem para seus projetos. Já escrevemos sobre isso publicamente antes, mas as informações foram espalhadas entre diferentes ensaios, entradas de FAQ e comentários de licença. Este artigo reúne todas essas informações em uma única fonte, para tornar mais fácil para as pessoas seguirem e consultarem.
+Quero me concentrar na escolha de licenças para o projeto neste artigo, bem como nas especificidades da utilização de projetos com várias licenças.
 
+Ao utilizar programas de código aberto distintos, os desenvolvedores frequentemente desconsideram as licenças. Para nossos aplicativos e programas, frequentemente empregamos projetos, partes de projetos ou serviços sem considerar como eles podem afetar o futuro. Você deve manter os direitos autorais? Quais condições e obrigações se aplicam a várias licenças? Quero me concentrar na escolha de licenças para o projeto neste artigo, bem como nas especificidades da utilização de projetos com várias licenças. O termo "projeto" refere-se a um projeto ou repositório de código aberto aqui e abaixo.
 
-Estas recomendações são para trabalhos projetados para fazer trabalhos práticos. Isso inclui software, documentação e algumas outras coisas. Obras de arte e obras que expressam um ponto de vista são questões diferentes; o Projeto GNU não tem uma posição geral sobre como eles devem ser lançados, exceto que todos devem ser utilizáveis sem software não-livre (em particular, sem DRM). No entanto, você pode querer seguir estas recomendações para obras de arte que acompanham um determinado programa.
+**Isenção de responsabilidade:**
 
+As informações deste manual não devem ser consideradas como aconselhamento jurídico.
 
-As recomendações se aplicam ao licenciamento de um trabalho que você cria, seja uma modificação de um trabalho existente ou um novo trabalho original. Eles não abordam a questão de combinar material existente sob diferentes licenças. Se você está procurando ajuda com isso, verifique nosso FAQ GPL.
+---
 
-Depois de ver o que recomendamos aqui, se quiser orientação, escreva para <licensing@gnu.org>. Observe que provavelmente levará algumas semanas para a equipe de licenciamento entrar em contato com você; se você não obtiver resposta em um mês, por favor, escreva novamente.
+## Licença Cláusula Zero BSD
 
+Com a licença BSD Zero Clause, você tem mais flexibilidade do que com a licença BSD 2-Clause, porque não é necessário incluir o aviso de direitos autorais, idioma da licença ou isenção de responsabilidade no código-fonte ou no formato binário do software.
 
-## Contribuindo para um projeto existente
+### Permissões
 
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
 
-Quando você contribui para um projeto existente, geralmente deve lançar suas versões modificadas sob a mesma licença do trabalho original. É bom cooperar com os mantenedores do projeto, e usar uma licença diferente para suas modificações geralmente torna essa cooperação muito difícil. Você só deve fazer isso quando houver uma forte razão para justificá-lo.
+### Condições
 
+### Limitações
 
-Um caso em que o uso de uma licença diferente pode ser justificado é quando você faz grandes alterações em um trabalho sob uma licença não copyleft. Se a versão que você criou for consideravelmente mais útil que a original, então vale a pena fazer copyleft, pelos mesmos motivos que normalmente recomendamos o copyleft. Se você estiver nessa situação, siga as recomendações abaixo para licenciar um novo projeto.
+- Responsabilidade
+- Garantia
 
+---
 
-Se você optar por liberar suas contribuições sob uma licença diferente por qualquer motivo, certifique-se de que a licença original permita o uso do material sob a licença escolhida. Por uma questão de honestidade, mostre explicitamente quais partes do trabalho estão sob qual licença.
+## Licença Livre Acadêmica v3.0
 
+Uma forma de licença de software aberto que não exige a liberação do código-fonte para trabalhos derivados é a Academic Free License. Direitos autorais e patentes são expressamente concedidos e os direitos de marca do autor são reservados.
 
-### Programas
+### Permissões
 
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
 
-Recomendamos diferentes licenças para diferentes projetos, dependendo principalmente da finalidade do software. Em geral, recomendamos o uso da licença copyleft mais forte que não interfira nessa finalidade. Nosso ensaio “O que é Copyleft?” explica o conceito de copyleft com mais detalhes e por que geralmente é a melhor estratégia de licenciamento.
+### Condições
 
+- Aviso de licença e direitos autorais
+- mudanças de estado
 
-Para a maioria dos programas, recomendamos que você use a versão mais recente da GNU General Public License (GPL) para seu projeto. Seu forte copyleft é apropriado para todos os tipos de software e inclui várias proteções para a liberdade dos usuários. Para permitir futuras atualizações de licença, especifique “versão 3 ou qualquer versão posterior” para que seu programa seja compatível com a licença do código que pode ser lançado, no futuro, em versões GPL subsequentes.
+### Limitações
 
+- Responsabilidade
+- Uso de marca registrada
+- Garantia
 
-### Pequenos programas
+---
 
+## GNU Affero General Public License v3.0
 
-Não vale a pena usar o copyleft para a maioria dos programas pequenos. Usamos 300 linhas como referência: quando o código-fonte de um pacote de software é menor que isso, os benefícios proporcionados pelo copyleft são geralmente muito pequenos para justificar a inconveniência de garantir que uma cópia da licença sempre acompanhe o software.
+Esta concessão de licença copyleft mais estrita depende do acesso sob a mesma licença a todo o código-fonte da obra licenciada e a modificações, incluindo obras maiores que incorporam a obra licenciada. vai fazer. Os avisos de direitos autorais e licenças devem ser mantidos. Os colaboradores concedem expressamente direitos de patente em suas contribuições. Versões modificadas de todo o código-fonte devem ser publicadas se forem usadas para fornecer serviços em uma rede.
 
+### Permissões
 
-Para esses programas, recomendamos a Licença Apache 2.0. Esta é uma licença de software fraca, frouxa e “pushover” (sem copyleft) que tem termos para impedir que colaboradores e distribuidores processem por violação de patente. Isso não torna o software imune a ameaças de patentes (nenhuma licença de software pode conseguir isso), mas evita que os detentores de patentes estabeleçam uma “isca e troca” onde eles liberam o software sob termos gratuitos e exigem que os destinatários concordem com termos não-livres em uma licença de patente.
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
 
+### Condições
 
-Entre as licenças fracas (pushover), a Apache 2.0 é a melhor; portanto, se você for usar uma licença fraca, seja qual for o motivo, recomendamos o uso dessa.
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- O uso da rede é distribuição
+- Mesma licença
+- mudanças de estado
 
+### Limitações
 
-### Bibliotecas
+- Responsabilidade
+- Garantia
 
+---
 
-Para bibliotecas, distinguimos três tipos de casos.
+## Licença Apache 2.0
 
+Uma licença permissiva que exige a manutenção de direitos autorais e avisos de licença como um de seus principais requisitos. Os colaboradores concedem expressamente direitos de patente em suas contribuições. Todos os Trabalhos Superiores, Trabalhos Modificados e Trabalhos Licenciados podem ser distribuídos sem o código-fonte original, sujeitos a várias restrições.
 
-Algumas bibliotecas implementam formatos de dados gratuitos que competem com formatos de dados restritos, como Ogg Vorbis (que compete com o áudio MP3) e WebM (que compete com o vídeo MPEG-4). O sucesso do formato livre requer permitir que muitos programas de aplicativos proprietários sejam vinculados ao código para lidar com o formato. Por exemplo, queríamos que players de mídia não livres, especialmente aparelhos, incluíssem o código para Ogg Vorbis e também para MP3.
+### Permissões
 
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
 
-Nessas situações especiais, se você deseja convencer os desenvolvedores de aplicativos proprietários a usar a biblioteca para o formato livre, você precisa facilitar isso licenciando a biblioteca sob uma licença fraca, como a Apache License 2.0.
+### Condições
 
+- Aviso de licença e direitos autorais
+- mudanças de estado
 
-No entanto, devemos reconhecer que esta estratégia não teve sucesso para Ogg Vorbis. Mesmo depois de alterar a licença de direitos autorais para permitir a fácil inclusão desse código de biblioteca em aplicativos proprietários, os desenvolvedores proprietários geralmente não o incluíram. O sacrifício feito na escolha da licença acabou nos ganhando pouco.
+### Limitações
 
+- Responsabilidade
+- Uso de marca registrada
+- Garantia
 
-Para todas as outras bibliotecas, recomendamos algum tipo de copyleft. Se os desenvolvedores já estiverem usando uma biblioteca alternativa estabelecida lançada sob uma licença não-livre ou uma licença flexível flexível, recomendamos o uso da GNU Lesser General Public License (LGPL).
+---
 
+## Licença Artística 2.0
 
-Ao contrário do primeiro caso, em que a biblioteca implementa um padrão eticamente superior, aqui a adoção por si só não atingirá nenhuma meta objetiva especial, portanto não há razão para evitar totalmente o copyleft. No entanto, se você exigir que os desenvolvedores que usam sua biblioteca liberem seus programas inteiros sob copyleft, eles simplesmente usarão uma das alternativas disponíveis, e isso também não promoverá nossa causa. A Lesser GPL foi projetada para preencher o meio termo entre esses casos, permitindo que desenvolvedores de software proprietário usem a biblioteca coberta, mas fornecendo um copyleft fraco que dá aos usuários liberdade em relação ao próprio código da biblioteca.
+A Licença Artística, muito popular na comunidade Perl, requer que as versões modificadas do software não impeçam os usuários de executar a versão padrão.
 
+### Permissões
 
-Para bibliotecas que fornecem instalações especializadas e que não enfrentam concorrência entrincheirada de não-copyleft ou não-livre, recomendamos o uso da GNU GPL simples. Para saber os motivos, leia “Por que você não deve usar a Lesser GPL para sua próxima biblioteca”.
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
 
+### Condições
 
-### Software de servidor
+- Aviso de licença e direitos autorais
+- mudanças de estado
 
+### Limitações
 
-Se for provável que outros façam versões aprimoradas de seu programa para rodar em servidores e não distribuam suas versões para mais ninguém, e você está preocupado que isso colocará sua versão lançada em desvantagem, recomendamos a Licença Pública Geral GNU Affero (AGPL). Os termos da AGPL são quase idênticos aos da GPL; a única diferença substantiva é que ele tem uma condição extra para garantir que as pessoas que usam o software em uma rede possam obter o código-fonte para ele.
+- Responsabilidade
+- Uso de marca registrada
+- Garantia
 
+---
 
-O requisito da AGPL não aborda os problemas que podem surgir para os usuários quando eles confiam sua computação ou seus dados ao servidor de outra pessoa. Por exemplo, isso não impedirá que o Serviço como Substituto de Software (SaaSS) negue a liberdade dos usuários — mas a maioria dos servidores não usa SaaSS. Para saber mais sobre essas questões, leia “Por que o Affero GPL.”
+## Licença BSD 2-Cláusula “Simplificada”
 
+Uma licença permissiva que vem em duas variedades: BSD 2-cláusula e BSD 3-cláusula. Ambos são ligeiramente diferentes da licença do MIT.
 
-### Documentação
+### Permissões
 
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
 
-Recomendamos a GNU Free Documentation License (GFDL) para tutoriais, manuais de referência e outros grandes trabalhos de documentação. É uma forte licença copyleft para trabalhos educacionais, inicialmente escrita para manuais de software, e inclui termos que tratam especificamente de problemas comuns que surgem quando esses trabalhos são distribuídos ou modificados.
+### Condições
 
+- Aviso de licença e direitos autorais
 
-Para trabalhos curtos de documentação secundária, como um cartão de referência, é melhor usar a licença GNU totalmente permissiva, pois uma cópia do GFDL dificilmente caberia em um cartão de referência. Não use CC BY, pois é incompatível com o GFDL.
+### Limitações
 
+- Responsabilidade
+- Garantia
 
-Para páginas de manual, recomendamos o GFDL se a página for longa e a licença GNU totalmente permissiva se for curta.
+---
 
+## BSD 3-Clause Clear License (Clear BSD)
 
-Algumas documentações incluem código fonte de software. Por exemplo, um manual para uma linguagem de programação pode incluir exemplos para os leitores seguirem. Você deve incluí-los no manual sob os termos da FDL e liberá-los sob outra licença apropriada para o software. Isso ajuda a facilitar o uso do código em outros projetos. Recomendamos que você dedique pequenos pedaços de código ao domínio público usando CC0 e distribua pedaços maiores sob a mesma licença que o projeto de software associado usa.
+Uma variante da licença BSD de 3 cláusulas que não concede direitos de patente explicitamente.
 
+### Permissões
 
-### Outros dados para programas
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
 
+### Condições
 
-Esta seção discute todos os outros trabalhos para uso prático que você pode incluir com o software. Para dar alguns exemplos, isso inclui ícones e outros gráficos funcionais ou úteis, fontes e dados geográficos. Você também pode segui-los para arte, embora não critiquemos se você não o fizer.
+- Aviso de licença e direitos autorais
 
+### Limitações
 
-Se você estiver criando esses trabalhos especificamente para uso com um projeto de software, geralmente recomendamos que você libere seu trabalho sob a mesma licença do software. Não há nenhum problema em fazer isso com as licenças que recomendamos: GPLv3, LGPLv3, AGPLv3 e GPLv2 podem ser aplicadas a qualquer tipo de trabalho—não apenas software—que seja protegido por direitos autorais e tenha uma forma preferida clara para modificação. Usar a mesma licença do software ajudará a tornar a conformidade mais fácil para os distribuidores e evitar qualquer dúvida sobre possíveis problemas de compatibilidade. O uso de uma licença gratuita diferente pode ser apropriado se fornecer algum benefício prático específico, como melhor cooperação com outros projetos gratuitos.
+- Responsabilidade
+- Uso de patente
+- Garantia
 
+---
 
-Se o seu trabalho não estiver sendo criado para uso com um projeto de software específico, ou se não for apropriado usar a mesma licença do projeto, recomendamos apenas que você escolha uma licença copyleft que seja apropriada para o seu trabalho. Temos alguns deles listados em nossa lista de licenças. Se nenhuma licença parecer especialmente apropriada, a licença Creative Commons Attribution-ShareAlike é um copyleft que pode ser usado para muitos tipos diferentes de trabalhos.
+## Licença BSD 3-Cláusula “Nova” ou “Revisada” (Licença BSD Modificada)
+
+Uma licença permissiva semelhante à licença de duas cláusulas da BSD, mas com uma terceira cláusula que proíbe outros de usar o nome do proprietário dos direitos autorais ou de seus colaboradores para endossar trabalhos derivados sem consentimento por escrito. aumentar.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Licença BSD 4-Cláusula “Original” ou “Antiga”
+
+Uma licença permissiva semelhante à licença de três cláusulas da BSD, mas com uma "cláusula de publicidade" que exige a atribuição da fonte original de todo o material publicitário.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Boost Software License 1.0
+
+Uma licença simples e permissiva que exige respeito apenas pelos direitos autorais e avisos de licença para distribuições de origem (não distribuições binárias). Trabalhos Licenciados, Trabalhos Modificados e Trabalhos Maiores podem ser distribuídos sem código-fonte sob termos diferentes.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais da fonte
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Atribuição Creative Commons 4.0 Internacional
+
+Quase qualquer uso é permitido com crédito e licença. Frequentemente usado para recursos de mídia e materiais educacionais. A licença mais comum para publicações acadêmicas de acesso aberto. Não recomendado como software.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Uso de patente
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Creative Commons Attribution Share Alike 4.0 Internacional
+
+Semelhante ao CC-BY-4.0, mas requer que os derivados sejam distribuídos sob a mesma licença compatível ou similar. Frequentemente usado para recursos de mídia e materiais educacionais. Uma versão anterior é a licença padrão para a Wikipédia e outros projetos da Wikimedia. Não recomendado para software.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+- Mesma licença
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Uso de patente
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Creative Commons Zero v1.0 Universal
+
+A Dedicação de Domínio Público Creative Commons CC0 renuncia aos direitos autorais de um trabalho que você criou e o dedica ao domínio público mundial. Use o CC0 para desativar totalmente os direitos autorais e garantir que seu trabalho tenha o maior alcance. Tal como acontece com o Unlicense e as licenças de software típicas, o CC0 isenta de garantias. CC0 é muito semelhante ao Unlicense.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+### Limitações
+
+- Responsabilidade
+- Uso de patente
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Contrato de Licença de Software Gratuito CeCILL v2.1
+
+Licença copyleft forte feita por três organizações de pesquisa públicas francesas, CEA, CNRS e Inria, compatível com AGPL-3.0, EUPL-1.1 e GPL-2.0 ou versões posteriores dessas licenças.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- O uso da rede é distribuição
+- Mesma licença
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## CERN Open Hardware License Version 2 - Permissive (CERN OHL v2 Permissive)
+
+Licença permissiva para design de hardware. A condição exige apenas a retenção do aviso. Os colaboradores concedem expressamente direitos de patente. Trabalhos licenciados, modificados e maiores podem ser distribuídos sob termos separados e sem atribuição.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## CERN Open Hardware License Versão 2 - Fortemente Recíproco (CERN OHL v2 Fortemente Recíproco)
+
+Esta permissão forte e inter-relacionada de Licença de Design de Hardware garante que a fonte completa do Trabalho Licenciado e das Modificações, incluindo o Trabalho Principal que usa o Trabalho Licenciado, sejam disponibilizados sob a mesma licença. doença. O memorando deve ser salvo. Os colaboradores concedem expressamente direitos de patente.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## CERN Open Hardware License Version 2 - Weakly Reciprocal (CERN OHL v2 Weakly Reciprocal)
+
+Esta fraca concessão de licenciamento cruzado depende do fornecimento da fonte completa do Trabalho Licenciado e das Modificações sob a mesma licença. O memorando deve ser salvo. Os colaboradores concedem expressamente direitos de patente. No entanto, uma Obra Maior que usa a Obra Licenciada por meio de uma interface fornecida pela Obra Licenciada pode ser distribuída sem a Fonte dessa Obra Maior sob termos diferentes.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença (biblioteca)
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Licença da Comunidade Educacional v2.0
+
+A Licença da Comunidade Educacional Versão 2.0 ("ECL") consiste na Licença Apache 2.0 modificada para alterar o escopo da concessão de patente na Seção 3 para atender especificamente às necessidades da comunidade educacional que usa essa licença. aumentar.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Eclipse Public License 1.0
+
+Esta licença copyleft comercialmente amigável fornece a capacidade de licenciar binários comercialmente. Licenciamento de patente moderno e isento de direitos. O trabalho vinculado pode usar outras licenças, incluindo licenças comerciais.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Eclipse Public License 2.0
+
+Esta licença copyleft comercialmente amigável fornece a capacidade de licenciar binários comercialmente. Licenciamento de patente moderno e isento de direitos. As obras vinculadas podem usar outras licenças, incluindo licenças comerciais.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Licença Pública da União Europeia 1.1
+
+A European Union Public License (EUPL) é uma licença copyleft para software livre/de código aberto criada por iniciativa e aprovada pela Comissão Europeia nas 22 línguas oficiais da União Europeia.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- O uso da rede é distribuição
+- Mesma licença
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Licença Pública da União Europeia 1.2
+
+A European Union Public License (EUPL) é uma licença copyleft para software livre/de código aberto criada por iniciativa e aprovada pela Comissão Europeia nas 23 línguas oficiais da União Europeia.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- O uso da rede é distribuição
+- Mesma licença
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Licença de documentação gratuita GNU v1.3
+
+Uma licença copyleft para documentação de software.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## GNU General Public License v2.0 (GNU GPLv2)
+
+A GNU GPL é a licença de software livre mais amplamente usada e está sujeita a requisitos rígidos de copyleft. Se você distribuir um trabalho derivado, deverá disponibilizar o código-fonte desse trabalho sob a mesma licença. Existem várias variantes da GNU GPL, cada uma com requisitos diferentes.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## GNU General Public License v3.0 (GNU GPLv3)
+
+Esta poderosa concessão de licença copyleft requer que o código-fonte completo do Trabalho Licenciado e modificações, incluindo trabalhos maiores que usam o Trabalho Licenciado, sejam disponibilizados sob a mesma licença. Os avisos de copyright e licença devem ser preservados. Os colaboradores concedem expressamente direitos de patente.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Licença ISC
+
+Uma licença permissiva permite que os usuários façam qualquer coisa com o código com atribuição adequada e sem garantia. A licença ISC é funcionalmente equivalente às cláusulas BSD 2 e à licença MIT, com algumas linguagens obsoletas removidas.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+-Licença e aviso de direitos autorais
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## GNU Lesser General Public License v2.1 (GNU LGPLv2.1)
+
+A GNU LGPL é usada principalmente para bibliotecas de software e trabalhos derivados devem ser licenciados sob a mesma licença. No entanto, isso não se aplica a obras que apenas se referem a ele. A GNU LGPL tem duas versões comumente usadas.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença (biblioteca)
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## GNU Lesser General Public License v3.0 (GNU LGPLv3)
+
+Esta concessão de licença copyleft requer que o código-fonte completo do trabalho licenciado e modificações sejam disponibilizados sob a mesma licença ou GNU GPLv3. Os avisos de copyright e licença devem ser preservados. Os colaboradores concedem expressamente direitos de patente. No entanto, uma Obra Maior que usa a Obra Licenciada por meio de uma interface fornecida pela Obra Licenciada pode ser distribuída sem o código-fonte dessa Obra Maior sob termos diferentes.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença (biblioteca)
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## LaTeX Project Public License v1.3c
+
+A LaTeX Project Public License (LPPL) é a licença primária sob a qual o kernel LaTeX e os pacotes LaTeX básicos são distribuídos.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## MIT Sem Atribuição
+
+É uma licença curta, simples e permissiva sem restrições e não exige respeito por direitos autorais ou avisos de licença. Trabalhos Licenciados, Trabalhos Modificados e Trabalhos Maiores podem ser distribuídos sem Código-Fonte sob termos diferentes.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Licença MIT
+
+Uma licença permissiva curta e simples com condições exigindo apenas a preservação de direitos autorais e avisos de licença. Trabalhos licenciados, modificações e trabalhos maiores podem ser distribuídos sob termos diferentes e sem código-fonte.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Mozilla Public License 2.0
+
+Esta concessão de licença fraca de copyleft depende do código-fonte dos arquivos licenciados e modificações nesses arquivos sendo disponibilizados sob a mesma licença (ou uma das licenças GNU, conforme o caso). Os avisos de copyright e licença devem ser preservados. Os colaboradores concedem expressamente direitos de patente. No entanto, uma Obra Maior que usa a Obra Licenciada pode ser distribuída sob termos diferentes e sem o código-fonte dos arquivos adicionados à Obra Maior.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença (arquivo)
+
+### Limitações
+
+- Responsabilidade
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Licença Pública da Microsoft
+
+Licença patenteada de código aberto.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+
+### Limitações
+
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Licença recíproca da Microsoft
+
+Uma licença de concessão de patente de código aberto semelhante à Microsoft Public License. com a condição adicional de que o código-fonte de todos os arquivos derivados seja fornecido sob esta licença.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença (arquivo)
+
+### Limitações
+
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Mulan Permissive Software License, Versão 2 (Mulan PSL v2)
+
+Uma licença permissiva semelhante à licença Apache, mas declara explicitamente que não concede direitos de marca registrada. Mulan Permissive Software License é a primeira licença de código aberto aprovada pela OSI em chinês e inglês.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+
+### Limitações
+
+- Responsabilidade
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Licença de código aberto da Universidade de Illinois/NCSA (UIUC/NCSA)
+
+A University of Illinois/NCSA Open Source License (UIUC License) é uma licença permissiva de software livre baseada na licença MIT/X11 e na licença BSD 3-Clause. Seus termos incluem o compromisso de respeitar os avisos de direitos autorais e de licença nas distribuições de origem e binária e a proibição de usar o nome do autor ou da organização do projeto para anunciar ou endossar trabalhos derivados.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Open Data Commons Open Database License v1.0 (ODbL)
+
+A Open Database License (ODbL) é um contrato de licença projetado para permitir que os usuários compartilhem, modifiquem e usem bancos de dados livremente, mantendo essa liberdade para outros.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- Mesma licença
+
+### Limitações
+
+- Responsabilidade
+- Uso de patente
+- Uso de marca registrada
+- Garantia
+
+---
+
+## SIL Open Font License 1.1
+
+A Open Font License (OFL) é administrada pela SIL International. Procura criar um compromisso entre o software livre e os valores da comunidade de design de tipos. É usado por quase todos os projetos de fontes de código aberto, como Adobe, Google e Mozilla.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+- Mesma licença
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Licença de Software Aberto 3.0
+
+OSL 3.0 é uma licença copyleft que não requer licenciamento cruzado para trabalhos vinculados. Ele também prevê uma concessão expressa de direitos de patente de contribuidores a usuários, com uma disposição de exclusão em vigor se os usuários registrarem uma reclamação de violação de patente.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+- O uso da rede é distribuição
+- Mesma licença
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Uso de marca registrada
+- Garantia
+
+---
+
+## Licença PostgreSQL
+
+Uma licença muito curta estilo BSD usada exclusivamente para PostgreSQL.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## A não licença
+
+Uma licença incondicional para dedicar a obra ao domínio público. Trabalhos não licenciados, modificações e trabalhos maiores podem ser distribuídos sem código-fonte sob outros termos.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Licença permissiva universal v1.0
+
+Licença compatível com GPL aprovada por OSI e FSF. Permitimos expressamente a atribuição apenas por aviso de direitos autorais e link simples, não o texto completo da licença. Inclui concessão expressa de direitos de patente. Trabalhos licenciados e modificações podem ser distribuídos sob termos separados sem código-fonte. Você também pode, opcionalmente, estender a concessão de patente a um trabalho maior para que possa ser usado como um contrato de licença de colaborador.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso de patente
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Licença Vim
+
+Não há restrições quanto ao uso ou distribuição de cópias não modificadas do software. Partes do software podem ser transferidas, mas o texto da licença deve sempre ser incluído. Algumas restrições se aplicam à versão modificada. A licença é compatível com GPL, permitindo compilar e distribuir software usando bibliotecas GPL.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Divulgar fonte
+- Aviso de licença e direitos autorais
+
+### Limitações
+
+- Mesma licença
+- mudanças de estado
+
+---
+
+## Faça o que diabos você quiser Public License
+
+A licença mais simples. Isso permite que o usuário faça o que quiser com o código.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+
+### Limitações
+
+---
+
+## licença zlib
+
+Licença permissiva curta compatível com GPL. Versões fonte modificadas devem ser marcadas como tal.
+
+### Permissões
+
+- Uso comercial
+- Distribuição
+- Modificação
+- Uso privado
+
+### Condições
+
+- Aviso de licença e direitos autorais da fonte
+- mudanças de estado
+
+### Limitações
+
+- Responsabilidade
+- Garantia
+
+---
+
+## Créditos
+
+O conteúdo principal desta página é derivado de [choosealicense](https://choosealicense.com/).
