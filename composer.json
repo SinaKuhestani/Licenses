@@ -1,0 +1,9 @@
+{
+  "name": "sinabek/licenses",
+  "description": "A collection of common open source licenses.",
+  "type": "component",
+  "homepage": "https://github.com/sinabek/licences",
+  "license": [
+    "MIT"
+  ]
+}
