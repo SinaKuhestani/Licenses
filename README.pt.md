@@ -1,10 +1,10 @@
 # Guia completo dos desenvolvedores sobre licenças de código aberto
 
-[![pt](https://img.shields.io/badge/lang-english-red.svg)](https://github.com/sinabek/licences/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-english-red.svg)](https://github.com/sinabek/licences/blob/main/README.md)
 [![pt-br](https://img.shields.io/badge/lang-português-green.svg)](https://github.com/sinabek/licences/blob/main/README.pt.md)
 [![es](https://img.shields.io/badge/lang-español-yellow.svg)](https://github.com/sinabek/licences/blob/main/README.es.md)
-[![es](https://img.shields.io/badge/lang-français-blue.svg)](https://github.com/sinabek/licences/blob/main/README.fr.md)
-[![es](https://img.shields.io/badge/lang-deutsch-orange.svg)](https://github.com/sinabek/licences/blob/main/README.de.md)
+[![fr](https://img.shields.io/badge/lang-français-blue.svg)](https://github.com/sinabek/licences/blob/main/README.fr.md)
+[![de](https://img.shields.io/badge/lang-deutsch-orange.svg)](https://github.com/sinabek/licences/blob/main/README.de.md)
 
 Quero me concentrar na escolha de licenças para o projeto neste artigo, bem como nas especificidades da utilização de projetos com várias licenças.
 
