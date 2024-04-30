@@ -1,8 +1,8 @@
 {
-  "name": "sinabek/licenses",
+  "name": "sinakuhestani/licenses",
   "description": "A collection of common open source licenses.",
   "type": "component",
-  "homepage": "https://github.com/sinabek/licences",
+  "homepage": "https://github.com/SinaKuhestani/Licenses",
   "license": [
     "MIT"
   ]
